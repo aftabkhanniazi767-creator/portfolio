@@ -1,35 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
+<title>Aftab Portfolio</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.header{
+    padding:50px 20px;
+    background:linear-gradient(135deg,#4f46e5,#06b6d4);
+}
+
+.profile{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid white;
+    margin-top:10px;
+}
+
+.container{
+    padding:20px;
+}
+
+.card{
+    background:#1e293b;
+    margin:15px;
+    padding:15px;
+    border-radius:12px;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 15px;
+    margin-top:10px;
+    border-radius:8px;
+    text-decoration:none;
+    color:white;
+    background:#22c55e;
+    font-weight:bold;
+}
+</style>
+
 </head>
 
-<body style="font-family:Arial; margin:0; background:#0f172a; color:white;">
+<body>
 
-<div style="text-align:center; padding:40px; background:linear-gradient(135deg,#4f46e5,#06b6d4);">
-    <h1>👋 Hello, I'm Aftab</h1>
+<div class="header">
+    <h1>👋 I am Aftab</h1>
     <p>Web Developer | Python Learner</p>
+
+    <!-- Profile Photo -->
+    <img class="profile" src="https://i.imgur.com/1X4f8aR.png" alt="profile">
 </div>
 
-<div style="padding:20px;">
+<div class="container">
 
-    <div style="background:#1e293b; padding:15px; border-radius:10px; margin-bottom:15px;">
+    <div class="card">
         <h2>About Me</h2>
-        <p>I am learning web development and building my first portfolio website.</p>
+        <p>I am learning web development and building professional websites.</p>
     </div>
 
-    <div style="background:#1e293b; padding:15px; border-radius:10px; margin-bottom:15px;">
+    <div class="card">
         <h2>Skills</h2>
-        <p>HTML, CSS, Python, GitHub</p>
+        <p>HTML • CSS • Python • GitHub</p>
     </div>
 
-    <div style="background:#1e293b; padding:15px; border-radius:10px;">
-        <h2>Contact</h2>
-        <p>Email: example@gmail.com</p>
+    <div class="card">
+        <h2>Projects</h2>
+        <p>✔ Portfolio Website</p>
+        <p>✔ Small Python Apps</p>
+    </div>
+
+    <div class="card">
+        <h2>Contact Me</h2>
+
+        <a class="btn" href="https://wa.me/923455836749" target="_blank">
+            💬 WhatsApp Me
+        </a>
     </div>
 
 </div>
 
 </body>
-  </html>
+    </html>
